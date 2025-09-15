@@ -1,6 +1,6 @@
-# 📈 Crypto Data Pipeline
+# Crypto Data Pipeline
 
-## 📑 Table of Contents
+## Table of Contents
 1. [Introduction](#introduction)  
 2. [Features](#features)  
 3. [Technologies Used](#technologies-used)  
@@ -11,7 +11,7 @@
 
 ---
 
-## 🚀 Introduction
+## Introduction
 This project builds a data pipeline for cryptocurrency processing:  
 - Crawl news from **Coindesk** and **NewsBTC**.  
 - Store data in **MySQL** (news, tag, kline, indicators).  
@@ -22,7 +22,7 @@ This project builds a data pipeline for cryptocurrency processing:
 
 ---
 
-## 🚀 Features
+## Features
 - Scheduled news crawling (Airflow DAG `Crawl_crypto_news`).  
 - Store news data in `news_fact`, `dim_tag` tables.  
 - Crawl **kline** data from Binance API → store in `kline_fact`.  
@@ -31,7 +31,7 @@ This project builds a data pipeline for cryptocurrency processing:
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 - **Python 3.9+**  
 - **Apache Airflow** (Docker)  
 - **Apache Spark** (Docker)  
@@ -42,7 +42,7 @@ This project builds a data pipeline for cryptocurrency processing:
 
 ---
 
-## ⚙️ Install (Docker)
+## Install (Docker)
 1. Clone the project:  
    ```bash
    git clone https://github.com/your-username/crypto-pipeline.git
@@ -74,7 +74,7 @@ This project builds a data pipeline for cryptocurrency processing:
 
 ---
 
-## ▶️ Usage
+## Usage
 - **Run news crawling DAG**: `Crawl_crypto_news`.  
 - **Run Binance + Spark job DAG**: `Thesis`.  
 - Airflow will automatically:  
@@ -84,7 +84,7 @@ This project builds a data pipeline for cryptocurrency processing:
 
 ---
 
-## 📊 Examples
+## Examples
 ### Example news data (`news_fact`):
 | id | title | url | sentiment_score | created_date | tag_name |  
 |----|-------|-----|----------------|--------------|----------|  
@@ -98,7 +98,7 @@ This project builds a data pipeline for cryptocurrency processing:
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 - [Binance API](https://binance-docs.github.io/apidocs/)  
 - [NLTK Vader Sentiment](https://www.nltk.org/_modules/nltk/sentiment/vader.html)  
 - [Apache Airflow](https://airflow.apache.org/)  
