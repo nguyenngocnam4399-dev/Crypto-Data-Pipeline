@@ -11,7 +11,7 @@
 
 ---
 
-## 📝 Introduction
+#Introduction
 This project builds a data pipeline for cryptocurrency processing:  
 - Crawl news from **Coindesk** and **NewsBTC**.  
 - Store data in **MySQL** (news, tag, kline, indicators).  
