@@ -1,13 +1,13 @@
-# 🚀 Crypto Data Pipeline (with Apache Kafka)
+# Crypto Data Pipeline (with Apache Kafka)
 
-### 🧠 Data Engineering Capstone Project  
+### Data Engineering Capstone Project  
 **Author:** Nguyễn Ngọc Nam  
 **Mentor:** Cù Hữu Hoàng  
 **Location:** Ho Chi Minh City, Vietnam — 2025  
 
 ---
 
-## 🎯 About This Project
+## About This Project
 This project was developed as part of my **Data Engineering capstone**, aiming to build a **real-world data pipeline** that automates the entire process from **data ingestion to visualization**.
 
 Through this project, I applied key data engineering concepts such as:
@@ -21,7 +21,7 @@ It demonstrates my ability to design **end-to-end pipelines**, integrate **multi
 
 ---
 
-## 📘 Overview
+## Overview
 **Crypto Data Pipeline** is an **end-to-end Data Engineering system** designed to automatically **collect, stream, process, analyze, and visualize** cryptocurrency market data.  
 The system integrates **Apache Kafka** to enable **real-time data flow** between crawlers (producers) and consumers, which process and store the data for analytics and visualization.
 
@@ -33,13 +33,13 @@ The system integrates **Apache Kafka** to enable **real-time data flow** between
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ![System Architecture](images/System_Architecture.png)
 
 ---
 
-## 🧩 Key Features
+## Key Features
 
 | Category | Description |
 |-----------|-------------|
@@ -72,7 +72,7 @@ crypto-pipeline/
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Layer | Tools / Technologies |
 |-------|----------------------|
@@ -86,7 +86,7 @@ crypto-pipeline/
 
 ---
 
-## ⚙️ Installation (Docker)
+## Installation (Docker)
 
 1. **Clone the Repository**
    ```bash
@@ -114,8 +114,8 @@ crypto-pipeline/
 
 ---
 
-## ▶️ Usage Guide
-## 🚀 Running the Pipeline
+## Usage Guide
+## Running the Pipeline
 Below are the steps to execute the full end-to-end data pipeline manually or using Airflow.
 
 Step	Description
@@ -128,7 +128,7 @@ Step	Description
 3️⃣ Run Spark Job	Execute spark_job_1.py (either manually or via Airflow DAG spark_indicator) to compute SMA, RSI, and Bollinger Bands from the processed data.
 4️⃣ Visualize in Grafana	Open Grafana to view real-time metrics, technical indicators, and sentiment analytics from the crypto data warehouse.
 
-## 📊 Example Outputs
+## Example Outputs
 
 ### News Data (`news_fact`)
 | id | title | sentiment_score | tag_name | created_date |
@@ -143,7 +143,7 @@ Step	Description
 
 ---
 
-## 📈 Results
+## Results
 
 ✅ **Real-time streaming** between producer and consumer via Kafka.  
 ✅ **Fully automated pipeline** orchestrated by Airflow.  
@@ -154,7 +154,7 @@ Step	Description
 
 ---
 
-## 💡 Limitations & Future Improvements
+## Limitations & Future Improvements
 
 | Current Limitation | Future Improvement |
 |---------------------|--------------------|
@@ -165,12 +165,12 @@ Step	Description
 
 ---
 
-## 📊 Dashboard Preview
+## Dashboard Preview
 ![Grafana Dashboard Example](images/grafana.png)
 
 ---
 
-## 🙌 Acknowledgments
+## Acknowledgments
 - [Apache Kafka](https://kafka.apache.org/)
 - [Apache Airflow](https://airflow.apache.org/)
 - [Apache Spark](https://spark.apache.org/)
