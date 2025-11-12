@@ -179,6 +179,6 @@ Step	Description
 
 ---
 
-## 🧾 License
+## License
 This project is for **educational and research purposes only**.  
 © 2025 Nguyễn Ngọc Nam — Data Engineering Project.
