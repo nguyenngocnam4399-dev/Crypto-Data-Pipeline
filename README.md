@@ -52,7 +52,7 @@ The system integrates **Apache Kafka** to enable **real-time data flow** between
 
 ---
 
-## 🗂 Project Structure
+## Project Structure
 ```text
 crypto-pipeline/
 ├── dags/
